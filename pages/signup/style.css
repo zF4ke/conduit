@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+body {
+  -webkit-font-smoothing: antialiased;
+
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+aside {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(
+    180deg,
+    var(--first-blue) 0%,
+    var(--second-blue) 100%
+  );
+
+  width: 100%;
+}
+
+aside .aside-content {
+  margin: 3.48vw;
+}
+
+aside .main-text {
+  margin: 20.82vh 0 44.72vh 0;
+}
+
+aside h1 {
+  font: 700 3.87vw "DM Sans", sans-serif;
+  line-height: 121%;
+  letter-spacing: -3%;
+  color: #ffffff;
+}
+
+aside h2 {
+  font: 400 2.21vw "DM Sans", sans-serif;
+  line-height: 121%;
+  letter-spacing: -3%;
+  color: #ffffff;
+  opacity: 0.7;
+
+  margin-top: 3.21vh;
+}
+
+aside .illustration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  max-width: 470px;
+  max-height: 378px;
+  width: 35.21vw;
+}
+
+main {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+main .main-content {
+  margin: 11.07vw;
+}
+
+main h2 {
+  font: 700 2.21vw "DM Sans", sans-serif;
+  line-height: 42px;
+  letter-spacing: -2%;
+  color: #14103d;
+
+  margin-bottom: 8px;
+}
+
+main p {
+  font: 400 1.38vw "DM Sans", sans-serif;
+  line-height: 26px;
+  letter-spacing: -2%;
+  color: #a6aabe;
+}
+
+main p a {
+  background: linear-gradient(180deg, #477bff 0%, #306aff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  border-bottom: 2px solid;
+  border-image: linear-gradient(180deg, #477bff 0%, #306aff 100%);
+  border-image-slice: 1;
+
+  cursor: pointer;
+}
+
+main .main-content form {
+  margin: 5.51vh 0 5.51vh 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main .main-content input,
+main .main-content button {
+  font: 400 1.38vw "DM Sans", sans-serif;
+  line-height: 26px;
+  letter-spacing: -2%;
+
+  border-radius: 6px;
+
+  height: 6.43vh;
+  max-width: 27.68vw;
+
+  outline: none;
+  border: none;
+}
+
+main .main-content input {
+  padding: 1.72vh 1.52vw;
+  color: #14103d;
+
+  background: #3c72ff26;
+}
+
+main .main-content input::placeholder {
+  color: #aeb3c9;
+}
+
+main .main-content button {
+  cursor: pointer;
+  background: #477bff;
+  color: #ffffff;
+
+  margin-top: 4.82vh;
+}
+
+main .main-content input:nth-child(2) {
+  margin: 1.6vh 0 1.6vh 0;
+}
